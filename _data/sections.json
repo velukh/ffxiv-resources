@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Official Sites",
+        "collection": "official_sites"
+    },
+    {
+        "title": "Crafting &amp; Gathering",
+        "collection": "crafting_gathering_sites"
+    },
+    {
+        "title": "Glamour",
+        "collection": "glamour_sites"
+    },
+    {
+        "title": "Jobs",
+        "collection": "job_sites"
+    },
+    {
+        "title": "Housing &amp; Gardening",
+        "collection": "housing_gardening_sites"
+    }
+]

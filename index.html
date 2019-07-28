@@ -1,0 +1,27 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<div class="columns is-multiline">
+  {% for section in site.data.sections %}
+    <section class="column is-half">
+      <h2 class="subtitle is-3">{{ section.title }}</h2>
+      
+      {% for site in site[section.collection] %}
+        <div class="site-card card">
+          <div class="card-header">
+              <a class="card-footer-item" href="{{ site.site_url }}">
+                <h3 class="card-header-title has-text-link">{{ site.title }}</h3>      
+              </a>
+          </div>
+          <div class="card-content">
+              {{ site.content }}
+          </div>
+        </div>  
+      {% endfor %}
+    </section>
+  {% endfor %}
+</div>
