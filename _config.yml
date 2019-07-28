@@ -27,6 +27,7 @@ collections:
   - crafting_gathering_sites
   - glamour_sites
   - housing_gardening_sites
+  - hunt_sites
   - job_sites
   - official_sites
 

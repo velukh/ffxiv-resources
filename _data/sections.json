@@ -8,6 +8,10 @@
         "collection": "crafting_gathering_sites"
     },
     {
+        "title": "Hunt Sites",
+        "collection": "hunt_sites"
+    },
+    {
         "title": "Glamour",
         "collection": "glamour_sites"
     },
